@@ -1,0 +1,23 @@
+.imageWrapper{
+  background-color: DodgerBlue;
+  display: flex;
+  justify-content: space-around;
+  align-content: flex-start;
+  flex-wrap:  nowrap;
+  li{
+    list-style-type: none;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  img{
+    width: 100px;
+    margin: auto;
+    text-align: center;
+  }
+}
+.error{
+  margin-left: 25px;
+  color: red;
+}
